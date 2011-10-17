@@ -1,7 +1,11 @@
 About
-  node auto is a fast, automated, stainless way to install node without interfering with any choice.
-  It installs local node for you, and npm as well.
+  node-auto is a bash script providing fast, automated, stainless way to install node without interfering with any choice.
+  It installs node locally for you, and npm as well, except for a customized location is specified.
+  sudo free.
   All you need to do is to install packages you want to use for your projects.
 
 Usage
- sh node-auto.sh
+ sh node-auto.sh [version] [location]
+
+  version can be customized, default now is v0.4.12
+  location can also be customized if version is provided
