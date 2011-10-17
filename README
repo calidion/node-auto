@@ -1,0 +1,7 @@
+About
+  node auto is a fast, automated, stainless way to install node without interfering with any choice.
+  It installs local node for you, and npm as well.
+  All you need to do is to install packages you want to use for your projects.
+
+Usage
+ sh node-auto.sh
