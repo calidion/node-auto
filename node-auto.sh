@@ -10,6 +10,7 @@ if [ -z $1 ]; then
   git checkout v0.4.12 # optional.  Note that master is unstable.
 else
   echo "checking custom version $1"
+  git checkout $1 # optional.  Note that master is unstable.
 fi
 
 if [ -z $2 ]; then
