@@ -36,5 +36,3 @@ export PATH=$PATH:$location/bin
 echo "export NODE_PATH=$location:$location/lib/node_modules" >> ~/.profile 
 echo "export PATH=$PATH:$location/bin" >> ~/.profile 
 
-curl http://npmjs.org/install.sh | sh
-
