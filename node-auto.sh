@@ -6,8 +6,8 @@ git clone --depth 1 git://github.com/joyent/node.git
 cd node
 
 if [ -z $1 ]; then
-  echo "checking default version v0.4.12"
-  git checkout v0.4.12 # optional.  Note that master is unstable.
+  echo "checking default version v0.10.6"
+  git checkout v0.10.6 # optional.  Note that master is unstable.
 else
   echo "checking custom version $1"
   git checkout $1 # optional.  Note that master is unstable.
