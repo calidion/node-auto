@@ -4,8 +4,9 @@ About
   sudo free.
   All you need to do is to install packages you want to use for your projects.
 
-Usage
- sh node-auto.sh [version] [location]
+Usage:
+  git clone https://github.com/calidion/node-auto.git
+  sh node-auto.sh [version] [location]
 
-  version can be customized, default now is v0.4.12
+  version can be customized, default now is v0.10.6
   location can also be customized if version is provided
